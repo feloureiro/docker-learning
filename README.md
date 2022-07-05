@@ -4,7 +4,7 @@
 > Um processo com subprocessos que são isolados emulando um sistema operacional.
 
 - Namespace: isolamento de processos.
-- CGroups: isolamento e controle de recusos computacionais dos processos.
+- CGroups: isolamento e controle de recusos computacionais dos processos tal como memória.
 - Overlay File System(OFS): Sistema de arquivos em camadas que usa um arquivo base que só pode ser lido e toda mudança ou adição de arquivos é adicionado em um outro diretóio e então as mundanças são mergeadas e utilizadas. 
   - utiliza a bibliotecas e arquivos do sistema operacionail e só agrega os arquivos necessários.
 
