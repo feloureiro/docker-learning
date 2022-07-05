@@ -5,11 +5,11 @@
 
 - Namespace: isolamento de processos.
 - CGroups: isolamento e controle de recusos computacionais dos processos tal como memória.
-- Overlay File System(OFS): Sistema de arquivos em camadas que usa um arquivo base que só pode ser lido e toda mudança ou adição de arquivos é adicionado em um outro diretóio e então as mundanças são mergeadas e utilizadas. 
-  - utiliza a bibliotecas e arquivos do sistema operacionail e só agrega os arquivos necessários.
+- Overlay File System(OFS): Sistema de arquivos em camadas que usa um arquivo base que só pode ser lido e toda mudança ou adição de arquivos é adicionado em um outro diretório e então as mundanças são mergeadas e utilizadas. 
+  - utiliza a bibliotecas e arquivos do sistema operacional em qual está rodando e só agrega os arquivos necessários.
 
 # Images
-> Duas formas de gerar uma imagem, através do build de um Dockerfile ou por um commit em um container já existente rodando, que por sua vez, cria uma nova versão com as alterações do container anterior.
+> Duas formas de gerar uma imagem são através do build de um Dockerfile ou por um commit em um container já existente, que por sua vez, cria uma nova versão com as alterações do container anterior.
 
 ### Dockerfile
 > Arquivo declarativo para construir imagens    
